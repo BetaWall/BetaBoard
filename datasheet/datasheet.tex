@@ -1,0 +1,61 @@
+\documentclass[a4paper]{article}
+
+\title{BetaBoard Datasheet \texttt{Preliminary}}
+\author{Harry Beadle, George Brown}
+
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[margin=1in]{geometry}
+
+\begin{document}
+
+\maketitle
+
+\section*{18 Strip APA102 Multiplexer and Driver over RS485}
+
+\section{Features}
+\begin{itemize}
+\item Drives up to 18 Strips of 255 LEDs, totaling up to 4590 APA102 devices.
+\item Takes input using the RS485 protocol.
+\item Supports up to 40A continuous current driving the LEDS, with the ability to support much higher output currents with auxiliary power supplies.
+\end{itemize}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{assets/block_diagram.png}
+\caption{Block Diagram}
+\end{figure}
+
+\subsection{Protocols}\label{protocols}
+
+\subsubsection{RS485 Data Packet Format}\label{rs485-data-packet-format}
+
+The RS485 Packet is sent from the compute platform to the BetaBoard. It
+contains the address of the board, the strip for which the LED data is
+for and the LED data.
+
+\begin{center}
+\begin{verbatim}
+ID[8] STRIP[8] DATA_LENGTH[8] LED1[24] LED2[24] ... LEDN[24]
+\end{verbatim}
+
+\begin{table}[H]
+\begin{tabular}{lll}
+Tag & Bits & Description \\
+\hline
+\texttt{ID} & 8 & Board ID  \\
+\texttt{STRIP} & 8 & Strip Address  \\
+\texttt{DATA-LENGTH} & 8 & Number of LEDs to be set from packet \\
+\texttt{LED}$n$ & 24 & Three bytes for each color of each LED, in the format \texttt{BGR}
+\end{tabular}
+\end{table}
+\end{center}
+
+As an example setting 1 LED in strip \texttt{0x00} on board ID \texttt{0x00} to \texttt{0xFFFFFF}:
+
+\begin{verbatim}
+ID------- STRIP---- DATA_LEN- LED1-------------------------
+0000 0000 0000 0000 0000 0001 1111 1111 1111 1111 1111 1111
+\end{verbatim}
+
+\end{document}
