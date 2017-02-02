@@ -1,0 +1,4 @@
+# Ignore needless TeX output
+
+*.aux
+*.log
