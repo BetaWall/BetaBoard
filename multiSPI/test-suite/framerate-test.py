@@ -3,12 +3,13 @@ import random
 from time import sleep, time
 import wiringpi
 
-INTENSITY = 0xFF
+INTENSITY = 0xcc
 
 wiringpi.wiringPiSetup()
 wiringpi.pinMode(8, 1)
+wiringpi.digitalWrite(8, 1)
 
-DEBUG = False
+DEBUG = True
 
 #
 # Image Processing
@@ -18,8 +19,7 @@ def set_row(row):
 	if row in [0, 1]:
 		wiringpi.digitalWrite(8, row)
 	else:
-		raise ValueError("row %i  not in range." % row)
-
+		pass
 def send(input, row, location):
 	# Compile pixel data in to a data field
 	data = [0x00] * 4
@@ -32,26 +32,40 @@ def send(input, row, location):
 		print format(row, '02x'),
 		for i in data:
 			print format(i, '02x'),
-		print ""
 	array('B', data).tofile(location)
 	location.flush()
 
 
 display = []
 display.append([
-	[0xff, 0x00, 0x00],
-	[0x00, 0xff, 0x00],
-	[0x00, 0x00, 0xff]
-])
-display.append([
+	[0xff, 0xff, 0x00],
+	[0x00, 0xff, 0xff],
+	[0xff, 0x00, 0xff],
+	[0xff, 0xff, 0x00],
+	[0x00, 0xff, 0xff],
+	[0xff, 0x00, 0xff],
+	[0xff, 0xff, 0x00],
+	[0x00, 0xff, 0xff],
+	[0xff, 0x00, 0xff],
+	[0xff, 0xff, 0x00],
+	[0x00, 0xff, 0xff],
+	[0xff, 0x00, 0xff],
+	[0xff, 0xff, 0x00],
+	[0x00, 0xff, 0xff],
+	[0xff, 0x00, 0xff],
+	[0xff, 0xff, 0x00],
+	[0x00, 0xff, 0xff],
+	[0xff, 0x00, 0xff],
 	[0xff, 0xff, 0x00],
 	[0x00, 0xff, 0xff],
 	[0xff, 0x00, 0xff]
 ])
+display = display*18
+print display
 
-dir = 30
-max_change = 30
-base_color = 0x55
+dir = 1
+max_change = 1
+base_color = 0x11
 
 print "Target", "Actual"
 with open("/dev/spidev0.0", "wb") as spi:
@@ -78,4 +92,3 @@ with open("/dev/spidev0.0", "wb") as spi:
 			frames += 1
 			for i in range(len(display)):
 				send(display[i], i, spi)
-		print max_frame_rate, frames*4

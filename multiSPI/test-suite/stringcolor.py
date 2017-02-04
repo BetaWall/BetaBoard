@@ -94,4 +94,4 @@ lines = [0, 1]
 with open("/dev/spidev0.0", "wb") as spi:
 	while True:
 		for line in lines:
-			send_line(stringframe(raw_input("%i: " % line)), line, spi)
+			send_line(stringframe(input("%i: " % line)), line, spi)

@@ -6,7 +6,7 @@ import wiringpi
 # Constants
 #
 
-INTENSITY = 0xFF
+INTENSITY = 0xcc
 DEBUG = True
 
 #
@@ -97,14 +97,18 @@ def gametoframe(buff):
 		frame.append(stringframe("".join(line)))
 	return frame
 
-game = [['k']*3, ['k']*3]
-finished_game = [['r']*3, ['r']*3]
+game = [['k']*21, ['k']*21]
+finished_game = [['r']*21, ['r']*21]
 flag = True
 with open("/dev/spidev0.0", "wb") as spi:
  	while True:
  		while flag:
- 			i, j = random.choice([0, 1]), random.choice([0, 1, 2])
- 			if game[i][j] == 'k': 
+ 			i = random.choice([0, 1])
+			if i == 0:
+				j = random.choice(range(21))
+			else:
+				j = random.choice(range(21))
+ 			if game[i][j] == 'k':
  				game[i][j] = 'g'
  				flag = False
  		sendlines(gametoframe(game), spi)
@@ -112,5 +116,5 @@ with open("/dev/spidev0.0", "wb") as spi:
  		game[i][j] = 'r'
  		sendlines(gametoframe(game), spi)
  		if game == finished_game:
- 			game = [['k']*3, ['k']*3]
+ 			game = [['k']*21, ['k']*21]
  		flag = True
