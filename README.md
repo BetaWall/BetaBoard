@@ -1,3 +1,7 @@
+```diff
+- Not currently deployable. Under active development.
+```
+
 <img src="https://cloud.githubusercontent.com/assets/1482941/22535019/0a8bcc9a-e8f0-11e6-8714-77324c347f00.png" alt="BetaBoard" height="80px" />
 
 A multiplexed APA102 LED driver board for the BetaWall system.
