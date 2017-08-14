@@ -1,0 +1,323 @@
+Cmp-Mod V01 Created by PcbNew   date = Mon 14 Aug 2017 23:20:01 BST
+
+BeginCmp
+TimeStamp = 5991C0A1
+Path = /5969FD3B
+Reference = J1;
+ValeurCmp = RJ45;
+IdModule  = Connectors:RJ45_TRANSFO_ver2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C0C0
+Path = /590A00DA
+Reference = J2;
+ValeurCmp = RJ45;
+IdModule  = Connectors:RJ45_TRANSFO_ver2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C0D7
+Path = /590C59B4
+Reference = J3;
+ValeurCmp = CTB9308/4;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C0EE
+Path = /590C69F9
+Reference = J4;
+ValeurCmp = CTB9308/4;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C105
+Path = /590C7246
+Reference = J5;
+ValeurCmp = CTB9308/4;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C11C
+Path = /590C84AA
+Reference = J6;
+ValeurCmp = CTB9308/4;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C133
+Path = /590C850F
+Reference = J7;
+ValeurCmp = CTB9308/4;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C14A
+Path = /590C5B7C
+Reference = J8;
+ValeurCmp = CTB9308/4;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C161
+Path = /590C6A3F
+Reference = J9;
+ValeurCmp = CTB9308/4;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C178
+Path = /590C725A
+Reference = J10;
+ValeurCmp = CTB9308/4;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C18F
+Path = /590C84B0
+Reference = J11;
+ValeurCmp = CTB9308/4;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C1A6
+Path = /590C8522
+Reference = J12;
+ValeurCmp = CTB9308/4;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C1BD
+Path = /590C5BCE
+Reference = J13;
+ValeurCmp = CTB9308/4;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C1D4
+Path = /590C6B39
+Reference = J14;
+ValeurCmp = CTB9308/4;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C1EB
+Path = /590C726E
+Reference = J15;
+ValeurCmp = CTB9308/4;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C202
+Path = /590C84B6
+Reference = J16;
+ValeurCmp = CTB9308/4;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C219
+Path = /590C8535
+Reference = J17;
+ValeurCmp = CTB9308/4;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C230
+Path = /590C638E
+Reference = J18;
+ValeurCmp = CTB9308/4;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C247
+Path = /590C7204
+Reference = J19;
+ValeurCmp = CTB9308/4;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C25E
+Path = /590C7282
+Reference = J20;
+ValeurCmp = CTB9308/4;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C275
+Path = /590C84D6
+Reference = J21;
+ValeurCmp = CTB9308/4;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C28C
+Path = /590C8548
+Reference = J22;
+ValeurCmp = CTB9308/4;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C2A3
+Path = /590C65EF
+Reference = J23;
+ValeurCmp = CTB9308/4;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C2BA
+Path = /590C720A
+Reference = J24;
+ValeurCmp = CTB9308/4;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C2D1
+Path = /590C7296
+Reference = J25;
+ValeurCmp = CTB9308/4;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C2E8
+Path = /590C84E9
+Reference = J26;
+ValeurCmp = CTB9308/4;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C2FF
+Path = /590CB2DE
+Reference = J27;
+ValeurCmp = CTB9308/4;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C316
+Path = /590C68CA
+Reference = J28;
+ValeurCmp = CTB9308/4;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C32D
+Path = /590C7210
+Reference = J29;
+ValeurCmp = CTB9308/4;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C344
+Path = /590C72AA
+Reference = J30;
+ValeurCmp = CTB9308/4;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C35B
+Path = /590C84FC
+Reference = J31;
+ValeurCmp = CTB9308/4;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C372
+Path = /590CB2F1
+Reference = J32;
+ValeurCmp = CTB9308/4;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C389
+Path = /590C69B4
+Reference = J33;
+ValeurCmp = CTB9308/4;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C3A0
+Path = /590C7232
+Reference = J34;
+ValeurCmp = CTB9308/4;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C3CA
+Path = /590BE501
+Reference = U1;
+ValeurCmp = 74HC04;
+IdModule  = Housings_DIP:DIP-14_W7.62mm_Socket_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C402
+Path = /5909F0D9
+Reference = U2;
+ValeurCmp = ATMEGA328P-PU;
+IdModule  = Housings_DIP:DIP-28_W7.62mm_Socket_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C42E
+Path = /590BB6D6
+Reference = U3;
+ValeurCmp = A6T-8104;
+IdModule  = Housings_DIP:DIP-16_W7.62mm_Socket_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C452
+Path = /590BE16C
+Reference = U4;
+ValeurCmp = SP485R;
+IdModule  = Housings_DIP:DIP-8_W7.62mm_Socket_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C486
+Path = /596949D1
+Reference = U5;
+ValeurCmp = 74HC154;
+IdModule  = Housings_DIP:DIP-24_W7.62mm_Socket_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5991C4BA
+Path = /596950E5
+Reference = U6;
+ValeurCmp = 74HC154;
+IdModule  = Housings_DIP:DIP-22_W7.62mm_LongPads;
+EndCmp
+
+EndListe
